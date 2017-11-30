@@ -22,6 +22,6 @@ public class DemoApplicationTests {
     public void exampleTest() throws Exception {
         String body = restTemplate.getForObject("/beans", String.class);
         System.out.println("body = " + body);
-
+        System.out.println("test github");
     }
 }
